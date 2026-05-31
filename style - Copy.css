@@ -1,0 +1,102 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family:Arial, sans-serif;
+    background-color:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+/* Sections */
+section{
+    background:white;
+    margin:20px auto;
+    padding:25px;
+    width:90%;
+    max-width:1000px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+section h2{
+    color:#1e3a8a;
+    margin-bottom:15px;
+    border-bottom:2px solid #1e3a8a;
+    padding-bottom:5px;
+}
+
+/* Lists */
+ul{
+    margin-left:20px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+/* Projects */
+h3{
+    margin-top:15px;
+    color:#444;
+}
+
+/* Contact */
+section p{
+    margin-bottom:10px;
+}
+
+/* Footer */
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+
+/* Hover Effect */
+section:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+/* Responsive Design */
+@media(max-width:768px){
+
+    header h1{
+        font-size:30px;
+    }
+
+    header p{
+        font-size:16px;
+    }
+
+    section{
+        width:95%;
+        padding:20px;
+    }
+}
